@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/runnerz.iml" filepath="$PROJECT_DIR$/.idea/runnerz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java-Web-App.iml" filepath="$PROJECT_DIR$/.idea/Java-Web-App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/runnerz/runnerz.iml" filepath="$PROJECT_DIR$/runnerz/runnerz.iml" />
     </modules>
   </component>
 </project>
