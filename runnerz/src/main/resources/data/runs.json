@@ -1,0 +1,84 @@
+{
+  "runs" : [
+    {
+      "id" : 1,
+      "title" : "Morning Run",
+      "startedOn" : "2024-06-01T06:30:00Z",
+      "completedOn" : "2024-06-01T07:15:00Z",
+      "miles" : 5,
+      "location" : "INDOOR"
+    },
+    {
+      "id" : 2,
+      "title" : "Evening Jog",
+      "startedOn" : "2024-06-02T18:00:00Z",
+      "completedOn" : "2024-06-02T18:45:00Z",
+      "miles" : 4,
+      "location" : "OUTDOOR"
+    },
+    {
+        "id" : 3,
+        "title" : "Weekend Long Run",
+        "startedOn" : "2024-06-03T07:00:00Z",
+        "completedOn" : "2024-06-03T08:30:00Z",
+        "miles" : 10,
+        "location" : "OUTDOOR"
+    },
+    {
+        "id" : 4,
+        "title" : "Lunchtime Sprint",
+        "startedOn" : "2024-06-04T12:00:00Z",
+        "completedOn" : "2024-06-04T12:20:00Z",
+        "miles" : 3,
+        "location" : "INDOOR"
+    },
+    {
+        "id" : 5,
+        "title" : "City Park Run",
+        "startedOn" : "2024-06-05T17:30:00Z",
+        "completedOn" : "2024-06-05T18:15:00Z",
+        "miles" : 6,
+        "location" : "OUTDOOR"
+    },
+    {
+        "id" : 6,
+        "title" : "Hill Training",
+        "startedOn" : "2024-06-06T06:00:00Z",
+        "completedOn" : "2024-06-06T07:00:00Z",
+        "miles" : 7,
+        "location" : "OUTDOOR"
+    },
+    {
+        "id" : 7,
+        "title" : "Treadmill Session",
+        "startedOn" : "2024-06-07T19:00:00Z",
+        "completedOn" : "2024-06-07T19:30:00Z",
+        "miles" : 4,
+        "location" : "INDOOR"
+    },
+    {
+        "id" : 8,
+        "title" : "Sunset Run",
+        "startedOn" : "2024-06-08T20:00:00Z",
+        "completedOn" : "2024-06-08T20:45:00Z",
+        "miles" : 5,
+        "location" : "OUTDOOR"
+    },
+    {
+        "id" : 9,
+        "title" : "Morning Interval Training",
+        "startedOn" : "2024-06-09T06:15:00Z",
+        "completedOn" : "2024-06-09T07:00:00Z",
+        "miles" : 6,
+        "location" : "INDOOR"
+    },
+    {
+        "id" : 10,
+        "title" : "Evening Cool Down",
+        "startedOn" : "2024-06-10T18:30:00Z",
+        "completedOn" : "2024-06-10T19:00:00Z",
+        "miles" : 3,
+        "location" : "OUTDOOR"
+    }
+  ]
+}

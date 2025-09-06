@@ -22,7 +22,7 @@ public class RunController {
     }
 
     @RequestMapping("")
-    List<Run> getRuns() {
+    List<Run> findAll() {
         return runRepository.findAll();
     }
 
