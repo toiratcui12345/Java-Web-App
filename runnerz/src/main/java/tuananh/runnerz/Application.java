@@ -6,6 +6,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Import;
 import org.springframework.web.client.RestClient;
 import org.springframework.web.client.support.RestClientAdapter;
 import org.springframework.web.service.invoker.HttpServiceProxyFactory;
@@ -31,15 +32,15 @@ public class Application {
 		return factory.createClient(UserHttpClient.class);
 	}
 
-	@Bean
-	CommandLineRunner runner(UserRestClient client) {
-		return args -> {
-			List<User> users = client.findAll();
-			System.out.println(users);
-
-			User user = client.findById(1);
-			System.out.println(user);
-		};
-	}
+//	@Bean
+//	CommandLineRunner runner(UserRestClient client) {
+//		return args -> {
+//			List<User> users = client.findAll();
+//			System.out.println(users);
+//
+//			User user = client.findById(1);
+//			System.out.println(user);
+//		};
+//	}
 
 }
